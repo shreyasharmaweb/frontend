@@ -15,7 +15,7 @@ export default function Login(props) {
         <h4>{props.tagline}</h4>
       </div>
       <div className='inner2'>
-        <NavLink to={userLink}>Login</NavLink>
+      <NavLink to={userLink}>Login</NavLink>
        
         <p style={{ color: fontColor }}>Didn't have an account?<NavLink style={{ color: 'blue' }} to={user}>Signup</NavLink></p>
       </div>
